@@ -3750,6 +3750,22 @@
       <lastModified>
       </lastModified>
     </Content>
+    <Content Include="www\js\controllers\main.js">
+      <SubType>Content</SubType>
+      <type>file</type>
+      <deletable>true</deletable>
+      <hash>2a973b62</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/www/js/controllers/main.js</path>
+      <remark>
+      </remark>
+      <lastModified>635739527528401812</lastModified>
+    </Content>
     <Content Include="www\navbar.controllers.js">
       <type>file</type>
       <deletable>True</deletable>
@@ -3764,6 +3780,22 @@
       </remark>
       <lastModified>
       </lastModified>
+    </Content>
+    <Content Include="www\views\main.html">
+      <SubType>Content</SubType>
+      <type>file</type>
+      <deletable>true</deletable>
+      <hash>f03babe5</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/www/views/main.html</path>
+      <remark>
+      </remark>
+      <lastModified>635739527424381812</lastModified>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -4520,6 +4552,20 @@
       </remark>
       <lastModified>
       </lastModified>
+    </Folder>
+    <Folder Include="www\views">
+      <type>dir</type>
+      <deletable>true</deletable>
+      <hash>RENAMED</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/www/views</path>
+      <remark>
+      </remark>
     </Folder>
   </ItemGroup>
   <Target Name="Build" />
