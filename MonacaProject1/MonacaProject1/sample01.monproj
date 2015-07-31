@@ -90,6 +90,22 @@
       <lastModified>
       </lastModified>
     </Content>
+    <Content Include="gulpfile.js">
+      <SubType>Content</SubType>
+      <type>file</type>
+      <deletable>true</deletable>
+      <hash>45b14055</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/gulpfile.js</path>
+      <remark>
+      </remark>
+      <lastModified>635736965063460416</lastModified>
+    </Content>
     <Content Include="ios\MonacaApp-Info.plist">
       <type>file</type>
       <deletable>False</deletable>
@@ -104,6 +120,22 @@
       </remark>
       <lastModified>
       </lastModified>
+    </Content>
+    <Content Include="package.json">
+      <SubType>Content</SubType>
+      <type>file</type>
+      <deletable>true</deletable>
+      <hash>50be1c47</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/package.json</path>
+      <remark>
+      </remark>
+      <lastModified>635726566136294748</lastModified>
     </Content>
     <Content Include="www\components\angular-ui-bootstrap-bower\.bower.json">
       <type>file</type>
