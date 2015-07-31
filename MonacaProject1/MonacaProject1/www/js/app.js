@@ -1,6 +1,6 @@
 'use strict';
 
-var myApp = angular.module('myApp', ['ui.bootstrap', 'ngRoute'])
+angular.module('myApp', ['ui.bootstrap', 'ngRoute'])
   .config(function ($routeProvider) {
       $routeProvider
         .when('/', {
@@ -14,15 +14,14 @@ var myApp = angular.module('myApp', ['ui.bootstrap', 'ngRoute'])
         .otherwise({
             redirectTo: '/'
         });
+  }).controller('AppCtrl', function ($scope) {
+
+      $scope.isCollapsed = true;
+
+      $scope.open = function (size) {
+          alert('1');
+          Scopes.get('AppCtrl').open(size);
+      };
+
+
   });
-
-myApp.controller('NavbarCtrl', function($scope) {
-
-    $scope.isCollapsed = true;
-
-    $scope.open = function (size) {
-        alert('1');
-        Scopes.get('ModalDemoCtrl').open(size);
-    };
-
-});

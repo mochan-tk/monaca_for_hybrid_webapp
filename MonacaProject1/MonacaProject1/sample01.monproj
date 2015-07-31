@@ -90,22 +90,6 @@
       <lastModified>
       </lastModified>
     </Content>
-    <Content Include="gulpfile.js">
-      <SubType>Content</SubType>
-      <type>file</type>
-      <deletable>true</deletable>
-      <hash>45b14055</hash>
-      <icon>
-      </icon>
-      <mime>
-      </mime>
-      <os>
-      </os>
-      <path>/gulpfile.js</path>
-      <remark>
-      </remark>
-      <lastModified>635736965063460416</lastModified>
-    </Content>
     <Content Include="ios\MonacaApp-Info.plist">
       <type>file</type>
       <deletable>False</deletable>
@@ -121,21 +105,125 @@
       <lastModified>
       </lastModified>
     </Content>
-    <Content Include="package.json">
-      <SubType>Content</SubType>
+    <Content Include="www\components\angular-route\.bower.json">
       <type>file</type>
-      <deletable>true</deletable>
-      <hash>50be1c47</hash>
+      <deletable>True</deletable>
+      <hash>7ef99d1f</hash>
       <icon>
       </icon>
-      <mime>
-      </mime>
+      <mime>text/javascript</mime>
       <os>
       </os>
-      <path>/package.json</path>
+      <path>/www/components/angular-route/.bower.json</path>
       <remark>
       </remark>
-      <lastModified>635726566136294748</lastModified>
+      <lastModified>
+      </lastModified>
+    </Content>
+    <Content Include="www\components\angular-route\angular-route.js">
+      <type>file</type>
+      <deletable>True</deletable>
+      <hash>8fd3cb95</hash>
+      <icon>
+      </icon>
+      <mime>text/javascript</mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route/angular-route.js</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
+    </Content>
+    <Content Include="www\components\angular-route\angular-route.min.js">
+      <type>file</type>
+      <deletable>True</deletable>
+      <hash>ea2a092b</hash>
+      <icon>
+      </icon>
+      <mime>text/javascript</mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route/angular-route.min.js</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
+    </Content>
+    <Content Include="www\components\angular-route\angular-route.min.js.map">
+      <type>file</type>
+      <deletable>True</deletable>
+      <hash>30bd672e</hash>
+      <icon>
+      </icon>
+      <mime>application/octet-stream</mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route/angular-route.min.js.map</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
+    </Content>
+    <Content Include="www\components\angular-route\bower.json">
+      <type>file</type>
+      <deletable>True</deletable>
+      <hash>5f4eb2f8</hash>
+      <icon>
+      </icon>
+      <mime>text/javascript</mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route/bower.json</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
+    </Content>
+    <Content Include="www\components\angular-route\index.js">
+      <type>file</type>
+      <deletable>True</deletable>
+      <hash>79f15cfd</hash>
+      <icon>
+      </icon>
+      <mime>text/javascript</mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route/index.js</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
+    </Content>
+    <Content Include="www\components\angular-route\package.json">
+      <type>file</type>
+      <deletable>True</deletable>
+      <hash>6e0c6bc1</hash>
+      <icon>
+      </icon>
+      <mime>text/javascript</mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route/package.json</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
+    </Content>
+    <Content Include="www\components\angular-route\README.md">
+      <type>file</type>
+      <deletable>True</deletable>
+      <hash>ac2d3088</hash>
+      <icon>
+      </icon>
+      <mime>text/markdown</mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route/README.md</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
     </Content>
     <Content Include="www\components\angular-ui-bootstrap-bower\.bower.json">
       <type>file</type>
@@ -3620,7 +3708,7 @@
     <Content Include="www\components\loader.js">
       <type>file</type>
       <deletable>True</deletable>
-      <hash>f79b1957</hash>
+      <hash>ae2fae9e</hash>
       <icon>
       </icon>
       <mime>text/javascript</mime>
@@ -3629,8 +3717,7 @@
       <path>/www/components/loader.js</path>
       <remark>
       </remark>
-      <lastModified>
-      </lastModified>
+      <lastModified>635739561071858732</lastModified>
     </Content>
     <Content Include="www\components\monaca-cordova-loader\.bower.json">
       <type>file</type>
@@ -3755,7 +3842,7 @@
     <Content Include="www\index.html">
       <type>file</type>
       <deletable>True</deletable>
-      <hash>bfb1d793</hash>
+      <hash>d5a2b7c6</hash>
       <icon>
       </icon>
       <mime>text/html</mime>
@@ -3764,13 +3851,12 @@
       <path>/www/index.html</path>
       <remark>
       </remark>
-      <lastModified>
-      </lastModified>
+      <lastModified>635739614779507728</lastModified>
     </Content>
     <Content Include="www\js\app.js">
       <type>file</type>
       <deletable>True</deletable>
-      <hash>336ce5c5</hash>
+      <hash>d64d8645</hash>
       <icon>
       </icon>
       <mime>text/javascript</mime>
@@ -3779,14 +3865,13 @@
       <path>/www/js/app.js</path>
       <remark>
       </remark>
-      <lastModified>
-      </lastModified>
+      <lastModified>635739614778537728</lastModified>
     </Content>
     <Content Include="www\js\controllers\main.js">
       <SubType>Content</SubType>
       <type>file</type>
       <deletable>true</deletable>
-      <hash>2a973b62</hash>
+      <hash>1f6baa38</hash>
       <icon>
       </icon>
       <mime>
@@ -3796,7 +3881,7 @@
       <path>/www/js/controllers/main.js</path>
       <remark>
       </remark>
-      <lastModified>635739527528401812</lastModified>
+      <lastModified>635739614777717728</lastModified>
     </Content>
     <Content Include="www\navbar.controllers.js">
       <type>file</type>
@@ -3817,7 +3902,7 @@
       <SubType>Content</SubType>
       <type>file</type>
       <deletable>true</deletable>
-      <hash>f03babe5</hash>
+      <hash>f0190517</hash>
       <icon>
       </icon>
       <mime>
@@ -3827,7 +3912,23 @@
       <path>/www/views/main.html</path>
       <remark>
       </remark>
-      <lastModified>635739527424381812</lastModified>
+      <lastModified>635739614776767728</lastModified>
+    </Content>
+    <Content Include="www\views\modal\myModalContent.html">
+      <SubType>Content</SubType>
+      <type>file</type>
+      <deletable>true</deletable>
+      <hash>f03babe5</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/www/views/modal/myModalContent.html</path>
+      <remark>
+      </remark>
+      <lastModified>635739622433345107</lastModified>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -3922,6 +4023,22 @@
       <os>
       </os>
       <path>/www/components/angular</path>
+      <remark>
+      </remark>
+      <lastModified>
+      </lastModified>
+    </Folder>
+    <Folder Include="www\components\angular-route">
+      <type>dir</type>
+      <deletable>True</deletable>
+      <hash>
+      </hash>
+      <icon>component</icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/www/components/angular-route</path>
       <remark>
       </remark>
       <lastModified>
@@ -4585,6 +4702,20 @@
       <lastModified>
       </lastModified>
     </Folder>
+    <Folder Include="www\js\controllers\modal">
+      <type>dir</type>
+      <deletable>true</deletable>
+      <hash>RENAMED</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/www/js/controllers/modal</path>
+      <remark>
+      </remark>
+    </Folder>
     <Folder Include="www\views">
       <type>dir</type>
       <deletable>true</deletable>
@@ -4596,6 +4727,20 @@
       <os>
       </os>
       <path>/www/views</path>
+      <remark>
+      </remark>
+    </Folder>
+    <Folder Include="www\views\modal">
+      <type>dir</type>
+      <deletable>true</deletable>
+      <hash>RENAMED</hash>
+      <icon>
+      </icon>
+      <mime>
+      </mime>
+      <os>
+      </os>
+      <path>/www/views/modal</path>
       <remark>
       </remark>
     </Folder>
