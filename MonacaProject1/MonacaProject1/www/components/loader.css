@@ -11,3 +11,9 @@
 @import url("bootstrap/dist/css/bootstrap.min.css");
 /*** <End:bootstrap LoadCss:"components/bootstrap/dist/css/bootstrap.min.css"> ***/
 /*** <End:bootstrap> ***/
+
+/*** <Start:angular-ui-select> ***/
+/*** <Start:angular-ui-select LoadCss:"components/angular-ui-select/dist/select.min.css"> ***/
+@import url("angular-ui-select/dist/select.min.css");
+/*** <End:angular-ui-select LoadCss:"components/angular-ui-select/dist/select.min.css"> ***/
+/*** <End:angular-ui-select> ***/
