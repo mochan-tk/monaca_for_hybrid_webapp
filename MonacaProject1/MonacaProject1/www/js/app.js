@@ -7,6 +7,14 @@ angular.module('myApp', ['ui.bootstrap', 'ui.select', 'ngRoute'])
             templateUrl: 'views/main.html',
             controller: 'MainCtrl'
         })
+        .when('/result', {
+            templateUrl: 'views/result.html',
+            controller: 'ResultCtrl'
+        })
+        .when('/detail', {
+            templateUrl: 'views/detail.html',
+            controller: 'DetailCtrl'
+        })
         .when('/about', {
             templateUrl: 'views/about.html',
             controller: 'AboutCtrl'
@@ -18,13 +26,17 @@ angular.module('myApp', ['ui.bootstrap', 'ui.select', 'ngRoute'])
       uiSelectConfig.theme = 'bootstrap';
       uiSelectConfig.resetSearchInput = true;
 
-  }).controller('AppCtrl', function ($scope) {
+  }).controller('AppCtrl', function ($scope, $location) {
 
       $scope.isCollapsed = true;
 
       $scope.open = function (size) {
-          alert('1');
           Scopes.get('AppCtrl').open(size);
+      };
+
+      $scope.search = function () {
+          console.log("search!");
+          $location.path('/result');
       };
 
       var vm = this;
@@ -40,6 +52,16 @@ angular.module('myApp', ['ui.bootstrap', 'ui.select', 'ngRoute'])
           return { name: name };
       }
 
-      console.log("Success");
-
+      /*
+      $scope.jQuery = jQuery;
+      $scope.xmlUrl = "http://www.amazon.co.jp/gp/rss/bestsellers/books/2278488051/ref=zg_bs_2278488051_rsslink&tag=sample-31";
+      $scope.getXmlContent = function () {
+          $http.get($scope.xmlUrl).success(function (data) {
+              console.log($scope.xmlDoc);
+              $scope.xmlDoc = jQuery(jQuery.parseXML(data));
+              
+          });
+      };
+      $scope.getXmlContent();
+      */
   });

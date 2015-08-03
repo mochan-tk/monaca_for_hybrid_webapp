@@ -14,8 +14,6 @@
     <script src="components/angular-ui-bootstrap-bower/ui-bootstrap.min.js"></script>
     <script src="components/angular-ui-select/dist/select.min.js"></script>
     <script src="components/angular-route/angular-route.min.js"></script>
-    <link rel="stylesheet" href="components/angular-ui-select/dist/select.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/select2/3.4.5/select2.css">
     <script src="js/app.js"></script>
     <script src="js/controllers/main.js"></script>
 
@@ -78,7 +76,10 @@
                 </div>
 
                 <input type="text" class="form-control" placeholder="What are searching for?">
-                <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-primary" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+
             </div>
         </div>
     </div>
