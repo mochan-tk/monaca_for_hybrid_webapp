@@ -8,6 +8,10 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="components/jquery/dist/jquery.js"></script>
+    <script src="components/angular/angular.js"></script>
+    <script src="components/angular-ui-bootstrap-bower/ui-bootstrap.min.js"></script>
+    <script src="components/angular-route/angular-route.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controllers/main.js"></script>
 </head>
@@ -55,6 +59,31 @@
                 </ul>
             </div>
             <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-group" style="display:inline;">
+            <div class="input-group">
+                <div class="input-group-btn" dropdown is-open="status.isopen">
+                    <button type="button" class="btn btn-default" dropdown-toggle ng-disabled="disabled"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="single-button">
+                        <li><a href="#">Category 1</a></li>
+                        <li><a href="#">Category 2</a></li>
+                        <li><a href="#">Category 3</a></li>
+                        <li><a href="#">Category 4</a></li>
+                        <li><a href="#">Category 5</a></li>
+                    </ul>
+                    <select>
+                        <option>Mustard</option>
+                        <option>Ketchup</option>
+                        <option>Relish</option>
+                    </select>
+                </div>
+
+                <input type="text" class="form-control" placeholder="What are searching for?">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+            </div>
         </div>
     </div>
 
