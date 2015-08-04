@@ -13,79 +13,21 @@
     <script src="components/angular/angular.js"></script>
     <script src="components/angular-ui-bootstrap-bower/ui-bootstrap.min.js"></script>
     <script src="components/angular-ui-select/dist/select.min.js"></script>
-    <script src="components/angular-route/angular-route.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/controllers/main.js"></script>
+    <script src="components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="components/x2js/xml2json.min.js"></script>
+    <script src="components/angular-xml/angular-xml.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/header.js"></script>
+    <script src="scripts/controllers/top.js"></script>
+    <script src="scripts/controllers/result.js"></script>
+    <script src="scripts/controllers/detail.js"></script>
 
 </head>
-<body ng-controller="AppCtrl as app">
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container" style="">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    Sell
-                </a>
-            </div>
-            <div collapse="isCollapsed" class="navbar-collapse" style="">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#" class="" style="">
-                            Explore
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="">
-                            Looks
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="">
-                            Style
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" ng-click="open()">
-                            Sign in
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </div>
-
+<body>
     <div class="container">
-        <div class="form-group" style="display:inline;">
-            <div class="input-group">
-                <div class="input-group-btn">
-                    <div ui-select ng-model="app.selected1">
-                        <div ui-select-match placeholder="All...">{{$select.selected.name}}&nbsp;&nbsp;</div>
-                        <div ui-select-choices repeat="l in app.list|filter:$select.search">{{l.name}}</div>
-                    </div>
-                </div>
+        <div ui-view="header"></div>
 
-                <input type="text" class="form-control" placeholder="What are searching for?">
-                <div class="input-group-btn">
-                    <button type="button" class="btn btn-primary" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div ng-view=""></div>
+        <div ui-view="content"></div>
     </div>
 
 </body>
