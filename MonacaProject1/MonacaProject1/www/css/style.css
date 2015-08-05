@@ -36,3 +36,10 @@ body {
  color:yellow;
  text-shadow:#ccc 1px 1px 0;
 }
+
+.navbar-brand {
+  background: url("http://www.toshiba.co.jp/img/common/head/logo_l.gif") no-repeat left;
+  background-size: contain;
+  margin-left: 5px;
+  width: 100px; 
+}

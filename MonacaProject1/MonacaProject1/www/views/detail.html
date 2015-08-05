@@ -1,111 +1,182 @@
 ﻿<h3><a ui-sref="app.result">>return</a></h3>
 <div class="container">
 
-    <div id="menu">
-        <div class="panel list-group">
-            <a href="#" class="list-group-item">
-                <span class="glyphicon glyphicon-home"></span> パソコン・周辺機器
-                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-            </a>
-            <a href="#menuOne" class="list-group-item" data-toggle="collapse" data-target="#menuOne" data-parent="#menu">
-                <span class="glyphicon glyphicon-envelope"></span> セール <span class="label label-success">3</span>
-                <span class="glyphicon glyphicon-chevron-down pull-right"></span>
-            </a>
-            <div id="menuOne" class="sublinks collapse">
-                <a class="list-group-item small"> 受信ボックス<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-                <a class="list-group-item small"> 送信ボックス<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            </div>
-            <a href="#menuTwo" class="list-group-item" data-toggle="collapse" data-target="#menuTwo" data-parent="#menu">
-                <span class="glyphicon glyphicon-cog"></span> パソコン本体
-                <span class="glyphicon glyphicon-chevron-up pull-right"></span>
-            </a>
-            <div id="menuTwo" class="sublinks collapse in">
-                <a class="list-group-item small"> ツール１<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            </div>
-        </div>
-    </div>
-
-
-
     <div class="row">
-        <div class="col-sm-3 col-md-3 accordion">
-            <div class="panel list-group row">
-
-                <
-
-                <a href="#" class="list-group-item">
-                    <span class="glyphicon glyphicon-home"></span> パソコン・周辺機器
-                    <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-                </a>
-                <a href="#menuOne" class="list-group-item" data-toggle="collapse" data-target="#menuOne" data-parent="#menu">
-                    <span class="glyphicon glyphicon-envelope"></span> セール <span class="label label-success">3</span>
-                    <span class="glyphicon glyphicon-chevron-down pull-right"></span>
-                </a>
-                <div id="menuOne" class="sublinks collapse">
-                    <a class="list-group-item small"> 受信ボックス<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-                    <a class="list-group-item small"> 送信ボックス<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-                </div>
-                <a href="#menuTwo" class="list-group-item" data-toggle="collapse" data-target="#menuTwo" data-parent="#menu">
-                    <span class="glyphicon glyphicon-cog"></span> パソコン本体
-                    <span class="glyphicon glyphicon-chevron-up pull-right"></span>
-                </a>
-                <div id="menuTwo" class="sublinks collapse in">
-                    <a class="list-group-item small"> ツール１<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="col-sm-9 col-md-9">
-            <div class="well">
-                <h1>
-                    Accordion Menu With Icon
-                </h1>
-                Admin Dashboard Accordion Menu
-            </div>
-        </div>
-
-
-
-    </div>
-
-
-
-
-    <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-6">
             <a href="#">
                 <br />
-                <img class="img-responsive" src="http://ecx.images-amazon.com/images/I/51N-6fBQZEL._AA160_.jpg" data-alt="" data-title="">
+                <img class="img-responsive" style="" src="http://ecx.images-amazon.com/images/I/61d9zqr9PkL._SX425_.jpg" data-alt="" data-title="">
             </a>
             <br>
         </div>
-        <div class="col-sm-9">
-            <h2>
-                <a class="url" href="#">Gentleman's Socks</a>
-            </h2>
+        <div class="col-sm-6">
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="panel panel-default">
+                <div class="panel-heading panel-default">
+                    <label class="a-native-dropdown">商品名：</label><br />
+                    東芝 Dynabook PR35MGAD483AD71 Windows7 Pro Corei3 1.7GHz 4GB 500GB DVDスーパーマルチ 無線LAN IEEE802.11AC対応 webカメラ 10キー付キーボード バッテリー駆動時間約7.5時間 Win8.1Pro UPDATEリカバリメディア付でOS入替可能 15.6型液晶ノートパソコン
+                </div>
+                <div class="panel-body">
+                    <br />
+                    <label class="a-native-dropdown">数量：</label>
+                    <select>
+                        <option value="1" selected="">
+                            1
+                        </option>
 
-            <ul class="list-group ticketView">
-                <li class="list-group-item ticketView">
-                    <span class="label label-default">Color</span>
-                    <label> Oatmeal</label>
-                </li>
-                <li class="list-group-item ticketView">
-                    <span class="label label-default">Material</span>
-                    <label> Cotton</label>
-                </li>
-                <li class="list-group-item ticketView">
-                    <span class="label label-default">Sizes</span>
-                    <label>
-                        Mens's 5-10, 8-12
-                    </label>
-                </li>
-                <li class="list-group-item ticketView">
-                    <span class="label label-default">Stock #</span>N12325
-                </li>
-            </ul>
+                        <option value="2">
+                            2
+                        </option>
+
+                        <option value="3">
+                            3
+                        </option>
+
+                        <option value="4">
+                            4
+                        </option>
+
+                        <option value="5">
+                            5
+                        </option>
+                    </select>
+                    <br />
+                    <br />
+                    <button type="button" class="btn btn-info" ng-click="addSlide()">カートに入れる</button>
+                </div>
+            </div>
         </div>
-        <!--/col-->
     </div>
+    <hr />
+    <div class="row">
+        <h2>商品の情報</h2>
+
+        <h4>詳細情報</h4>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td style="background-color: #f5f5f5;">ブランド</td>
+                    <td>東芝(TOSHIBA)</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f5f5f5;">商品重量</td>
+                    <td>2.3 Kg</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f5f5f5;">梱包サイズ</td>
+                    <td>25.8 x 37.9 x 2.4 cm</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f5f5f5;">メーカー型番</td>
+                    <td>PR35MGAD483AD71</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f5f5f5;">カラー</td>
+                    <td>ブラック</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f5f5f5;">商品の寸法　幅 × 高さ</td>
+                    <td>37.9 x 24 mm</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f5f5f5;">ノート ディスプレイ方式</td>
+                    <td>LCD</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f5f5f5;">ディスプレイ最大解像度</td>
+                    <td>1366x768</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr />
+    <div class="row">
+        <h2>商品の説明</h2>
+        <div style="margin: 0.5em 0px 0em 25px;">
+            同梱物】ACアダプタ、バッテリー、Windows8.1 Pro Updateリカバリーメディア、保証書
+        </div>
+
+    </div>
+    <hr />
+    <div class="row">
+        <h2>カスタマー Q＆A</h2>
+        <div style="margin-bottom: 16px;" class="cdAskQandA">
+            <div class="cdVoting">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <a id="TxKJB034S6LL5C..Helpful.DiscussionBoards"></a>
+                <div style="line-height: 19px; clear: both; float:left; margin-right:14px; text-align: center; font-size:13px;">
+                    <div style="border-right: 1px solid #ddd; width: 45px;">
+                        <a id="askVoteUpLink-TxKJB034S6LL5C" class="askVoteUpLink" title="役に立つ" href="http://www.amazon.co.jp/gp/voting/cast/DiscussionBoards/-/TxKJB034S6LL5C/Helpful/1/ref=askvoteyn?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY28uanAvZHAvQjAwTjNLT0Y2WS9yZWY9Y21fY2RfX2FhcnZvdGUvcmVmPWFza3ZvdGVyZHI_X2VuY29kaW5nPVVURjgmbm9MTD0x&amp;token=1A71EDE4307399D167694FB2A0AB074369282B3E&amp;voteAnchorName=TxKJB034S6LL5C..Helpful.DiscussionBoards&amp;voteSessionID=377-3271898-9998367" data-entity-id="TxKJB034S6LL5C" onmouseover="askVoteHover(askVoteUpButton, 'TxKJB034S6LL5C')" onmouseout="askVoteUnhover(askVoteUpButton, 'TxKJB034S6LL5C')" onclick="return askVoteOnClick(askVoteUpButton, 'TxKJB034S6LL5C', 4);"><img src="http://g-ec2.images-amazon.com/images/G/09/x-locale/communities/discussion_boards/up_N._V345457030_.png" width="22" style="width: 20px; height: 14px; margin:0px auto;" id="askVoteUp-TxKJB034S6LL5C" height="14" border="0"></a>
+                        <div>
+                            <div id="askVoteCount-TxKJB034S6LL5C">4</div>
+                            <span class="voteCountLabel">投票</span>
+                        </div>
+                        <a id="askVoteDownLink-TxKJB034S6LL5C" class="askVoteDownLink" title="役に立たない" href="http://www.amazon.co.jp/gp/voting/cast/DiscussionBoards/-/TxKJB034S6LL5C/Helpful/-1/ref=askvoteyn?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY28uanAvZHAvQjAwTjNLT0Y2WS9yZWY9Y21fY2RfX2FhcnZvdGUvcmVmPWFza3ZvdGVyZHI_X2VuY29kaW5nPVVURjgmbm9MTD0x&amp;token=3458C85627233C0F0DE003F012CE57591E8BAE13&amp;voteAnchorName=TxKJB034S6LL5C..Helpful.DiscussionBoards&amp;voteSessionID=377-3271898-9998367" data-entity-id="TxKJB034S6LL5C" onmouseover="askVoteHover(askVoteDownButton, 'TxKJB034S6LL5C')" onmouseout="askVoteUnhover(askVoteDownButton, 'TxKJB034S6LL5C')" onclick="return askVoteOnClick(askVoteDownButton, 'TxKJB034S6LL5C', 4);"><img src="http://g-ec2.images-amazon.com/images/G/09/x-locale/communities/discussion_boards/down_N._V345457031_.png" width="22" style="vertical-align:bottom; width: 20px; height: 14px; margin:0px auto;" id="askVoteDown-TxKJB034S6LL5C" height="14" border="0"></a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="cdAskQuestion">
+                <a href="http://www.amazon.co.jp/gp/forum/cd/discussion.html/ref=cm_cd_dp_aar_al_a?ie=UTF8&amp;asin=B00N3KOF6Y&amp;cdForum=Fx3XXBH0M8KI3Y&amp;cdThread=TxKJB034S6LL5C"><span style="font-weight:bold">Q: </span>こちらの機種で、Windows7 Professional の機能である、「XP モード」は使用可能でしょうか？</a>
+            </div>
+            <div class="cdAskAnswer">
+                <div class="cdAskAnswerTag">
+                    <span style="font-weight:bold">A: </span>
+                </div>
+                <div class="cdAskAnswerBody">
+
+
+
+
+
+
+                    <noscript>
+                        &lt;span class="cdNonJStext"&gt;実際に使ったわけではありませんが、仕様上問題なく使用できるはずです&lt;/span&gt;
+                    </noscript>
+
+                    <span class="cdJSEnabledText">
+                        <span id="long_Mx2NDFAA3TWBQ43" style="display:block">
+                            <div class="cdJSEnabledTextBody">
+                                実際に使ったわけではありませんが、仕様上問題なく使用できるはずです
+                            </div>
+                        </span>
+                    </span>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr />
 </div>
