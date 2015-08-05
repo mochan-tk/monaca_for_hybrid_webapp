@@ -1,0 +1,34 @@
+{
+  "name": "angular-xml",
+  "version": "2.1.1",
+  "main": "angular-xml.js",
+  "ignore": [
+    "**/*.swp",
+    ".gitignore",
+    "components",
+    "git-hooks",
+    "Gruntfile.js",
+    "node_modules",
+    "package.json",
+    "README.md",
+    "test"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.2",
+    "angular-mocks": "~1.4.2"
+  },
+  "dependencies": {
+    "x2js": "~1.1.7"
+  },
+  "homepage": "https://github.com/johngeorgewright/angular-xml",
+  "_release": "2.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.1.1",
+    "commit": "e24f23057e84d3100d3a502c4be12680086d4f0b"
+  },
+  "_source": "git://github.com/johngeorgewright/angular-xml.git",
+  "_target": "2.1.1",
+  "_originalSource": "angular-xml",
+  "_direct": true
+}
